@@ -6,7 +6,7 @@ return {
                 symbols = {
                     win = {
                         position = "right",
-                        size = { width = 0.13, height = 0.3 }
+                        size = { width = 0.16, height = 0.3 }
                     },
                 },
             },
