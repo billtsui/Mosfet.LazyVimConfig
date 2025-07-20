@@ -7,7 +7,7 @@ opt.expandtab = true
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.softtabstop = 4
-opt.relativenumber = false
+-- opt.relativenumber = false
 opt.wrap = true
 
 vim.g.autoformat = false
