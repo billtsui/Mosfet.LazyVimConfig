@@ -12,4 +12,3 @@ opt.wrap = true
 
 vim.g.autoformat = false
 vim.o.autochdir = true
-vim.lsp.inlay_hint.enable()
