@@ -9,8 +9,8 @@ return {
         direction = "float", -- 'vertical' | 'horizontal' | 'tab' | 'float',
         float_opts = {
             border = "single",
-            width = 160,
-            height = 40,
+            width = 100,
+            height = 20,
             title_pos = "center", -- 'left' | 'center' | 'right', position of the title of the floating window
         },
     },
