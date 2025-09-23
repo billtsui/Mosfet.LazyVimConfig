@@ -10,7 +10,7 @@ return {
         float_opts = {
             border = "single",
             width = 100,
-            height = 20,
+            height = 25,
             title_pos = "center", -- 'left' | 'center' | 'right', position of the title of the floating window
         },
     },
