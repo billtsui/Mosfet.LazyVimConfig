@@ -9,8 +9,12 @@ return {
         direction = "float", -- 'vertical' | 'horizontal' | 'tab' | 'float',
         float_opts = {
             border = "single",
-            width = 100,
-            height = 25,
+            width = function ()
+               return vim.o.winwidth * 6
+            end,
+            height = function ()
+                return vim.o.winheight * 25
+            end,
             title_pos = "center", -- 'left' | 'center' | 'right', position of the title of the floating window
         },
     },
