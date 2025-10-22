@@ -8,7 +8,7 @@ return {
         auto_scroll = true,
         direction = "float", -- 'vertical' | 'horizontal' | 'tab' | 'float',
         float_opts = {
-            border = "single",
+            border = "curved",
             width = function ()
                return vim.o.winwidth * 6
             end,
